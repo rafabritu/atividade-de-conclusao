@@ -1,194 +1,370 @@
-<?php 
-    $this->view('home/cabecario');
+<?php
+$this->view('home/cabecario');
 ?>
-        <!-- Navigation-->
-        <?php
-            $this->view('home/menu');
-        ?>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Clarence
-                        <span class="text-primary">Taylor</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
-                        <a href="mailto:name@email.com">name@email.com</a>
-                    </div>
-                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
-                    </div>
+<!-- Navigation-->
+<?php
+$this->view('home/menu');
+?>
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                <h1>Ótimas soluções para seu negócio</h1>
+                <h2>Tenha um site completo e super atraente e conquiste mais clientes</h2>
+                <div class="d-lg-flex">
+                    <a href="#about" class="btn-get-started scrollto">Começar</a>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Junior Web Designer</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Web Design Intern</h3>
-                            <div class="subheading mb-3">Shout! Media Productions</div>
-                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
-                            <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Mobile-First, Responsive Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                <?php 
-                    $this->view('home/form');
-                ?>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
-                </div>
-            </section>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+            </div>
         </div>
-       
-<?php 
-    $this->view('home/rodape');
+    </div>
+
+</section><!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= Cliens Section ======= -->
+    <section id="cliens" class="cliens section-bg">
+        <div class="container">
+
+            <div class="row" data-aos="zoom-in">
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                    <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Sobre mim</h2>
+            </div>
+
+            <div class="row content">
+                <div class="col-lg-6">
+                    <p>
+                        Meu nome é Rafael Brito, sou estudante de programação. Estou aprendendo HTML, CSS, JAVASCRIPT,
+                        MYSQL e PHP. Sou seguidor de Cristo e marido de Jéssica Brito.
+                    </p>
+                    <ul>
+                        <li><i class="ri-check-double-line"></i> PHP
+                        </li>
+                        <li><i class="ri-check-double-line"></i> HTML,CSS,JS
+                        </li>
+                        <li><i class="ri-check-double-line"></i> MYSQL
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0">
+                    <ul>
+                        <li><i class="ri-check-double-line"></i> FIC em Programador Web - 2020 - Instituto Federal de
+                            Tocantins
+                        </li>
+                        <li><i class="ri-check-double-line"></i> Programação Orientada a Objetos - 2020 - Curso em Vídeo
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+                    <img src="assets/img/skills.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+                    <h3>Minhas Habilidades</h3>
+                    <p class="font-italic">
+                        É a vontade de aprender sempre mais e o empenho em consolidar uma prática diferenciada que te
+                        levará ao topo.
+                    </p>
+
+                    <div class="skills-content">
+
+                        <div class="progress">
+                            <span class="skill">HTML <i class="val">100%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">CSS <i class="val">90%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">JavaScript <i class="val">75%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                        <div class="progress">
+                            <span class="skill">Photoshop <i class="val">55%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+
+            <div class="row">
+                <div class="col-lg-9 text-center text-lg-left">
+                    <h3>Queremos trabalhar por você</h3>
+                    <p> Temos a solução ideal para você. Fale conosco.</p>
+                </div>
+                <div class="col-lg-3 cta-btn-container text-center">
+                    <a class="cta-btn align-middle" href="#">Contratar</a>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Portfolio</h2>
+            </div>
+
+            <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+            </ul>
+
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-img"><img src="assets/img/portfolio/msn.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Web 3</h4>
+                        <p>Web</p>
+                        <a href="assets/img/portfolio/msn.png" data-gall="portfolioGallery" class="venobox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-img"><img src="assets/img/portfolio/microsoft.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>App 2</h4>
+                        <p>App</p>
+                        <a href="assets/img/portfolio/microsoft.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-img"><img src="assets/img/portfolio/youtube.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Card 2</h4>
+                        <p>Card</p>
+                        <a href="assets/img/portfolio/youtube.png" data-gall="portfolioGallery" class="venobox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                    <div class="portfolio-img"><img src="assets/img/portfolio/google.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>Web 2</h4>
+                        <p>Web</p>
+                        <a href="assets/img/portfolio/google.png data-gall=" portfolioGallery" class="venobox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-img"><img src="assets/img/portfolio/rafael.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>App 3</h4>
+                        <p>App</p>
+                        <a href="assets/img/portfolio/rafael.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-img"><img src="assets/img/portfolio/rafabritu.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="portfolio-info">
+                        <h4>App 3</h4>
+                        <p>App</p>
+                        <a href="assets/img/portfolio/rafabritu.png" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+                        <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Time</h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="pic"><img src="assets/img/team/profile.jpeg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Rafael Brito</h4>
+                            <span>Web Master Full Stack</span>
+                            <p></p>
+                            <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Contato</h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="icofont-google-map"></i>
+                            <h4>Endereço:</h4>
+                            <p>Rua das camélias, 01 - MG</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="icofont-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>rafaeldevelopper@gmail.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="icofont-phone"></i>
+                            <h4>Telefone:</h4>
+                            <p>31 3024-95122</p>
+                        </div>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Seu Nome</label>
+                                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Seu Email</label>
+                                <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validate"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Assunto</label>
+                            <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Mensagem</label>
+                            <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="loading">Carregando</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Sua mensagem está sendo enviada. Obrigado!</div>
+                        </div>
+                        <div class="text-center"><button type="submit">Enviar Mensagem</button></div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+</main>
+<!-- End #main -->
+
+<?php
+$this->view('home/rodape');
 ?>
